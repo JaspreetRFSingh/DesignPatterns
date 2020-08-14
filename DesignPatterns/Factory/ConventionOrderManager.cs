@@ -10,5 +10,11 @@ namespace DesignPatterns.Factory
         {
             return "Convention Quick 1Day";
         }
+
+        public int MinDaysRequired()
+        {
+            return 3;
+        }
+
     }
 }

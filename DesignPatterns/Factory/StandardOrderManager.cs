@@ -10,5 +10,10 @@ namespace DesignPatterns.Factory
         {
             return "Quick-Standard";
         }
+
+        public int MinDaysRequired()
+        {
+            return 1;
+        }
     }
 }
